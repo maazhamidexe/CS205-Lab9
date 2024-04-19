@@ -49,7 +49,7 @@ y = data[target].values
 
 
 # Creating the objects
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.6, random_state=42, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42, shuffle=True)
 
 
 
